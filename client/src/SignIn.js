@@ -30,7 +30,7 @@ class SignUp extends Component {
             onChange={e => {
               this.setState({[e.target.name]: e.target.value});
             }}
-            placeholder="Enter Username"
+            placeholder="Enter Username Please"
             value={this.state.username}
           />
         </FormGroup>
