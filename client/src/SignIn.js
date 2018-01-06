@@ -23,14 +23,14 @@ class SignUp extends Component {
     return (
       <form onSubmit={this.handleSubmit.bind(this)}>
         <FormGroup>
-          <ControlLabel>Username</ControlLabel>
+          <ControlLabel>Username Goes Here</ControlLabel>
           <FormControl
             type="email"
             name="username"
             onChange={e => {
               this.setState({[e.target.name]: e.target.value});
             }}
-            placeholder="Enter Username Please"
+            placeholder="Enter Username"
             value={this.state.username}
           />
         </FormGroup>
