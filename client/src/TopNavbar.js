@@ -17,17 +17,12 @@ const TopNavbar = (props) => {
   }
   return (
     <div>
-      <nav>
+      <div>
         <input placeholder="Search for..."></input>
-      </nav>
+      </div>
       <Navbar inverse collapseOnSelect>
         <Navbar.Collapse>
           <Nav pullRight>
-  <<<<<<< HEAD
-            <NavItem onClick={props.onSignOut}>Sign Out Here</NavItem>
-  =======
-            <NavItem onClick={props.onSignOut}>Sign Out - Sign Out</NavItem>
-  >>>>>>> a05d6641572c81f4952a3fac27ec858620d6a57b
           </Nav>
           {navItems}
         </Navbar.Collapse>
